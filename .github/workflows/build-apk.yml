@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Extract project
-        run: unzip -q AnimeGo-v1.6-Modern-Fast-PHONE.zip
+        run: unzip -q AnimeGo-v1.6.1-FIXED-PHONE.zip
 
       - name: Set up Java
         uses: actions/setup-java@v4
